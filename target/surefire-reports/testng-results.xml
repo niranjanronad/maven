@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-21T05:53:27Z" name="Surefire suite" finished-at="2023-09-21T05:53:31Z" duration-ms="3482">
+    <groups>
+    </groups>
+    <test started-at="2023-09-21T05:53:27Z" name="Surefire test" finished-at="2023-09-21T05:53:31Z" duration-ms="3482">
+      <class name="com.junkin.MySampleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.junkin.MySampleTest@3f6b0be5]" started-at="2023-09-21T05:53:31Z" name="setUp" finished-at="2023-09-21T05:53:31Z" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEntity()[pri:0, instance:com.junkin.MySampleTest@3f6b0be5]" started-at="2023-09-21T05:53:31Z" name="testEntity" finished-at="2023-09-21T05:53:31Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEntity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.junkin.MySampleTest@3f6b0be5]" started-at="2023-09-21T05:53:31Z" name="tearDown" finished-at="2023-09-21T05:53:31Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.junkin.MySampleTest -->
+      <class name="com.junkin.MySampleYamlTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.junkin.MySampleYamlTest@3b6ddd1d]" started-at="2023-09-21T05:53:27Z" name="setUp" finished-at="2023-09-21T05:53:29Z" duration-ms="1543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEntity()[pri:0, instance:com.junkin.MySampleYamlTest@3b6ddd1d]" started-at="2023-09-21T05:53:29Z" name="testEntity" finished-at="2023-09-21T05:53:30Z" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEntity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.junkin.MySampleYamlTest@3b6ddd1d]" started-at="2023-09-21T05:53:30Z" name="tearDown" finished-at="2023-09-21T05:53:30Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.junkin.MySampleYamlTest@3b6ddd1d]" started-at="2023-09-21T05:53:30Z" name="setUp" finished-at="2023-09-21T05:53:30Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUsingTestFramework()[pri:0, instance:com.junkin.MySampleYamlTest@3b6ddd1d]" started-at="2023-09-21T05:53:30Z" name="testUsingTestFramework" finished-at="2023-09-21T05:53:30Z" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsingTestFramework -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.junkin.MySampleYamlTest@3b6ddd1d]" started-at="2023-09-21T05:53:30Z" name="tearDown" finished-at="2023-09-21T05:53:31Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.junkin.MySampleYamlTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

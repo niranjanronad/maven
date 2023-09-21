@@ -1,0 +1,7 @@
+brooklyn.catalog:
+    version: "1.0-SNAPSHOT"
+    itemType: entity
+    items:
+    - id: com.junkin.MySample
+      item:
+        type: com.junkin.MySample
